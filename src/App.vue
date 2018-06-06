@@ -173,12 +173,11 @@
       <p><br/></p>
       <p>教育部「推動學校午餐專案辦公室」主持人、中興大學教授盛中德表示，目前國教署考慮參考日本的作法，學生繳交的午餐費用，全部用在食材上，行政費都由政府負擔，今年9月預計先從偏鄉50人以下的學校開始試辦。</p>
       <p><br/></p>
-      <a href="https://vision.udn.com/vision/story/12124" target="_blank">
-        <div class="more">
-          <img src="./assets/more2.jpg" alt="">
-          <div class="more-text">看更多報導</div>
-        </div>
-      </a>
+      <div class="more" id="more2">
+        <img src="./assets/more2.jpg">
+        <a href="https://vision.udn.com/vision/story/12123" target="_blank"><div class="more-text">願景工程「校園營養午餐</div></a>
+        <a href="https://ubrand.udn.com/ubrand/cate/11817" target="_blank"><div class="more-text">深入認識孩子的營養午餐</div></a>
+      </div>
       <p><br/></p>
       <p><br/></p>
       <Share href="https://udn.com/upf/newmedia/2018_data/schoollunch/index.html" />
@@ -297,9 +296,20 @@ export default {
   }
 
   @media screen and (min-width: 951px) {
+      #more2 {
+        min-height: 288px;
+      }
+      #more2 img {
+        float: left;
+      }
       .more-text {
         display: inline-block;
         margin-left: 50px;
+      }
+      #more2 .more-text {
+        display: block;
+        margin-left: 450px;
+        margin-top: 30px;
       }
   }
 
